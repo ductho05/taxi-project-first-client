@@ -20,7 +20,7 @@ let en_iconFrame = {
     },
 };
 
-export let en_SDT = '+84373577867';
+export let en_SDT = '0522815815';
 export let en_com_name = 'Taxi Gia Re Company Limited';
 
 export let en_links = {
@@ -31,8 +31,8 @@ export let en_links = {
 };
 
 export let en_noti_text =
-    'TAXIGIARE.COM: 20% discount on all trips from 1/9 - 3/9. Hurry up and book a car to receive this offer!';
-export let en_title = 'Taxigiare.com';
+    'Taxitienchuyendaklak: 20% discount on all trips from 1/9 - 3/9. Hurry up and book a car to receive this offer!';
+export let en_title = 'Taxitienchuyendaklak';
 export let en_lang = {
     code: 'EN',
     image: 'https://emojigraph.org/media/joypixels/flag-united-states_1f1fa-1f1f8.png',
@@ -61,11 +61,9 @@ export let en_detail_links = [
 ];
 
 export let en_content_footer = {
-    title: 'Taxigiare.com - Cheap, fast and convenient online taxi booking system.',
+    title: 'Taxitienchuyendaklak - Cheap, fast and convenient online taxi booking system.',
     com_name: en_com_name,
-    name: 'Nguyen Van A',
     address: 'Buon Ma Thuot, Dak Lak',
-    email: 'abc@gmail.com',
     phone: en_SDT,
     copy_right: 'Mr. Aducanha © 2024. All Rights Reserved.',
 };
@@ -263,7 +261,7 @@ export let en_title_part = [
         content: [
             {
                 title: 'General introduction',
-                content: `"TAXIGIARE.COM is a cheap, fast and convenient online taxi booking system. We
+                content: `"Taxitienchuyendaklak is a cheap, fast and convenient online taxi booking system. We
         provide quality taxi services, a team of professional drivers, a diverse, safe,
         convenient taxi system and 24/7 support. Book a car today to experience the best service from us."`,
             },
@@ -294,7 +292,7 @@ export let en_title_part = [
         code: 'about',
         content: [
             {
-                title: 'Taxigiare.com',
+                title: 'Taxitienchuyendaklak',
                 content: ['Online taxi booking system', 'Cheap, fast and convenient', './en_background_info.png'],
             },
             {
