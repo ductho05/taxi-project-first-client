@@ -1,8 +1,8 @@
 export default function manifest() {
     return {
-        name: 'Taxi Buôn Ma Thuột',
-        short_name: 'Taxi Buôn Ma Thuột',
-        description: 'Đặt taxi Buôn Ma Thuột giá rẻ, tiện lợi. Đặt 5 phút sau tài xế có mặt ngay',
+        name: 'Taxi Tien Chuyen Daklak',
+        short_name: 'Taxi Tien Chuyen Daklak',
+        description: 'Taxi Tien Chuyen Daklak giá rẻ, tiện lợi. Chuyên nhận các chuyến xe đường ngắn, đường dài, đi sân bay, bệnh viện, khu vực Buôn Ma Thuột, Đăk Lăk ngoại tỉnh!',
         start_url: '/',
         display: 'standalone',
         background_color: '#fff',

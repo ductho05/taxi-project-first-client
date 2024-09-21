@@ -5,6 +5,6 @@ export default function robots() {
             allow: '/',
             disallow: '/private/',
         },
-        sitemap: 'https://taxi-daklak-giare.io.vn/sitemap.xml',
+        sitemap: 'https://taxitienchuyendaklak.io.vn/sitemap.xml',
     }
 }
