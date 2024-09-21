@@ -54,17 +54,6 @@ const Footer = ({ lib_object }) => {
 
                         <li className={cx('link')}>
                             <ArrowRightIcon className={cx('link_icon')} />
-                            <div>{content_title_footer[0].content[2] + ': ' + content_footer.name}</div>
-                            {/* <p className={cx('content')}></p> */}
-                        </li>
-
-                        <li className={cx('link')}>
-                            <ArrowRightIcon className={cx('link_icon')} />
-                            <div>{content_title_footer[0].content[3] + ': ' + content_footer.email}</div>
-                            {/* <p className={cx('content')}></p> */}
-                        </li>
-                        <li className={cx('link')}>
-                            <ArrowRightIcon className={cx('link_icon')} />
                             <div>{content_title_footer[0].content[4] + ': ' + content_footer.phone}</div>
                             {/* <p className={cx('content')}></p> */}
                         </li>

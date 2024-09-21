@@ -20,8 +20,8 @@ let iconFrame = {
     },
 };
 
-export let SDT = '+84373577867';
-export let com_name = 'TNHH Taxi Gia Re';
+export let SDT = '0522815815';
+export let com_name = 'Taxi DakLak';
 
 export let links = {
     home: '/',
@@ -54,7 +54,7 @@ export let detail_links = [
 ];
 
 export let noti_text =
-    'TAXIGIARE.COM: Giảm giá 20% cho tất cả các chuyến đi từ 1/9 - 3/9. Hãy nhanh tay đặt xe để nhận ưu đãi này nhé!';
+    'Taxitienchuyendaklak: Giảm giá 20% cho tất cả các chuyến đi từ 1/9 - 3/9. Hãy nhanh tay đặt xe để nhận ưu đãi này nhé!';
 export let title = 'Taxigiare.com';
 
 export let lang = {
@@ -78,11 +78,9 @@ export let content_title_footer = [
 ];
 
 export let content_footer = {
-    title: 'Taxigiare.com - Hệ thống đặt xe taxi trực tuyến giá rẻ, nhanh chóng và tiện lợi.',
+    title: 'Taxitienchuyendaklak - Hệ thống đặt xe taxi trực tuyến giá rẻ, nhanh chóng và tiện lợi.',
     com_name: com_name,
-    name: 'Nguyễn Văn A',
     address: 'Buôn Ma Thuột - Đăk Lăk',
-    email: 'abc@gmail.com',
     phone: SDT,
     copy_right: 'Mr. Aducanha © 2024. All Rights Reserved.',
 };
@@ -125,7 +123,7 @@ export let title_part = [
         content: [
             {
                 title: 'Giới thiệu chung',
-                content: `"TAXIGIARE.COM là hệ thống đặt xe taxi trực tuyến giá rẻ, nhanh chóng và tiện lợi. Chúng tôi
+                content: `"Taxitienchuyendaklak là hệ thống đặt xe taxi trực tuyến giá rẻ, nhanh chóng và tiện lợi. Chúng tôi
                         cung cấp dịch vụ taxi chất lượng, đội ngũ tài xế chuyên nghiệp, hệ thống taxi đa dạng, an toàn,
                         tiện lợi và hỗ trợ 24/7. Hãy đặt xe ngay hôm nay để trải nghiệm dịch vụ tốt nhất từ chúng tôi."`,
             },
@@ -157,7 +155,7 @@ export let title_part = [
         code: 'about',
         content: [
             {
-                title: 'Taxigiare.com',
+                title: 'Taxitienchuyendaklak',
                 content: ['Hệ thống đặt xe taxi trực tuyến', 'Giá rẻ, nhanh chóng và tiện lợi', './background_info.png'],
             },
             {
