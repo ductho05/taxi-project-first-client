@@ -74,7 +74,7 @@ const cx = classNames.bind(styles);
 const About = () => {
     var langCode =  'vi';
     if (typeof localStorage !== 'undefined') {
-        langCode = localStorage.getItem('lang')
+        langCode = localStorage.getItem('lang') || 'vi'
     }
 
     const lib_object =
