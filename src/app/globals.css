@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #22985C;
+  --complementary-color: #E07B39;
+  --analogous-light-green: #4DBA60;
+  --analogous-dark-green: #0C6D3F;
+  --triadic-blue: #004D99;
+  --triadic-red: #C72C2C;
+  --accent-color: #F7EAB1;
+  --neutral-light: #D0D0D0;
+  --text-logo: #FAF63D;
+  --footer:  #272727;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

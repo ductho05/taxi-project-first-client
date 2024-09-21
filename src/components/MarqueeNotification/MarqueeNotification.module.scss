@@ -1,0 +1,60 @@
+/* components/MarqueeNotification.module.css */
+.marqueeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--accent-color);
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1)
+}
+  
+  .marquee {
+    white-space: nowrap;    
+    animation: marquee 20s linear infinite;
+  }
+
+  .text {
+    padding: 10px;
+    font-size: 1.8rem;
+    color: var(--triadic-red);
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+  // In Mobile
+@media (max-width: 720px) {
+  .marqueeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: var(--accent-color);
+    padding: 0px;
+    border-radius: 0px;
+    flex: 1;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1)
+}
+  
+  .marquee {
+    white-space: nowrap;    
+    animation: marquee 15s linear infinite;
+  }
+
+  .text {
+    padding: 0px;
+    font-size: 1.5rem;
+    color: var(--triadic-red);
+  }
+
+}

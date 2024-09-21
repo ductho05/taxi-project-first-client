@@ -1,0 +1,163 @@
+.wrapper {
+    background-color: #fff;
+}
+
+.heading {
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.5;
+}
+
+.heading_info {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 4;
+}
+
+.heading_title {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    line-height: 1.5;
+    margin-bottom: 6px;
+    letter-spacing: 2px;
+}
+
+.about {
+    font-size: 3.2rem;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.message {
+    font-size: 1.3rem;
+    color: #f1f1f1;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact {
+    padding: 40px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .about {
+        color: #343334;
+    }
+
+    .message {
+        max-width: 500px;
+        color: #6d6d6d;
+    }
+}
+
+.contact_list {
+    margin-top: 5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contact_item {
+    min-width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #eee;
+    
+    &:last-child {
+        border-color: transparent;
+    }
+}
+
+.icon {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: relative;
+    background-color: var(--primary-color);
+}
+
+.icon_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: #fff;
+}
+
+.contact_title {
+    font-size: 1.4rem;
+    color: #343334;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.contact_content {
+    font-size: 1.3rem;
+    color: #6d6d6d;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+// Responsive
+
+// On Mobile Tablet
+@media (max-width: 1023px) {
+    .heading {
+        height: 40vh;
+    }
+}
+
+// On Mobile
+@media (max-width: 739px) {
+
+    .services {
+        height: 150vh;
+    }
+
+    .heading_title {
+        text-align: center;
+        font-size: 1.4rem;
+    }
+
+    .about {
+        font-size: 2rem;
+    }
+
+    .contact_list {
+        flex-direction: column;
+    }
+
+    .contact_item {
+        border-color: transparent;
+    }
+}
