@@ -55,7 +55,7 @@ export let detail_links = [
 
 export let noti_text =
     'Taxitienchuyendaklak: Giảm giá 20% cho tất cả các chuyến đi từ 1/9 - 3/9. Hãy nhanh tay đặt xe để nhận ưu đãi này nhé!';
-export let title = 'Taxigiare.com';
+export let title = 'Taxitienchuyendaklak';
 
 export let lang = {
     code: 'VI',
