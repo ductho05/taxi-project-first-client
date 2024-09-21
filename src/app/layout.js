@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <head>
                 <link rel="icon" href="favicon.ico" />
-                <meta name="google-site-verification" content="rYsGn8wt7ZmP2HJU-TliKBOv4_fhj1UCGC1OzYPKp6U" />
+                <meta name="google-site-verification" content="CiSm4-moEjXA41qOt9k7dBkEkwpz5xhJcJ3fchKh8oM" />
             </head>
             <body className={inter.className}>
                 <App>{children}</App>
